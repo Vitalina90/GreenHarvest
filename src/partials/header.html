@@ -1,19 +1,28 @@
 <header class="header">
-  <div class="container">
+  <div class="container header-container">
+    <a class="header-logo-link" href="./index.html">
+      <svg class="header-logo" width="168" height="16">
+        <use href="../img/logo.svg#logo"></use>
+      </svg>
+    </a>
     <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
       <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+        <li class="nav-list-item">
+          <a href="#how_it_works" class="nav-list-link">How it works</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="nav-list-item">
+          <a href="#vegetables" class="nav-list-link">Vegetables</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#reviews" class="nav-list-link">Reviews</a>
         </li>
       </ul>
+
+      <a class="nav-btn" href="#your_order">Shop now</a>
     </nav>
+    <button type="button" class="js-open-modal nav-menu-btn"> <svg class="nav-menu" width="26" height="20">
+        <use href="/img/sprite.svg#icon-burger"></use>
+      </svg>
+    </button>
   </div>
 </header>

@@ -1,0 +1,34 @@
+:root {
+    --black-text: #141414;
+    --white-text: #fbfbfb;
+    --primary-brand: #7a3145;
+    --accent: #d4bfc4;
+    --green-background: #576f35;
+    --details: #858585;
+    --transparent-black: #141414;
+    --success-state: #3cbc81;
+    --error-state: #e74a3b;
+    --transition-color: color .25s cubic-bezier(.4, 0, .2, 1);
+    --transition-background-color: background-color .25s cubic-bezier(.4, 0, .2, 1);
+    --transition-transform: transform .25s: cubic-bezier(.4, 0, .2, 1);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* FONT */
+
+:root {
+    --tight-font-family: "Inter Tight", sans-serif;
+    --second-family: "Roboto", sans-serif;
+
+    --regular: 400;
+    --medium: 500;
+    --semiBold: 600;
+    --bold: 700;
+}
+
+/* ANIMATION */

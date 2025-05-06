@@ -1,0 +1,36 @@
+/* SETUP */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--tight-font-family);
+    font-weight: var(--medium);
+    font-size: 16px;
+
+    color: var(--white-text);
+    background-color: var(--green-background);
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+/* main {
+    flex-grow: 1;
+}
+
+main:has(.back-link) {
+    text-align: center;
+} */
